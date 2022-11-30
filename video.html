@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="static/bootstrap/css/jumbotron.css" rel="stylesheet">
+    <link href="static/bootstrap/css2/css.css" rel="stylesheet">
+    
+    <link href="static/bootstrap/css2/css4.css" rel="stylesheet">
+    <link href="static/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="registrovotoñes.css">
+    <title>Video</title>
+</head>
+<body>
+    
+    <header >
+  
+        <nav th:fragment="menu-principal" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+          <a class="navbar-brand" href="#">Tutorias academicas</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="info.html">Tipos</a>
+        
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="proble.html">Problematica</a>
+              </li>          
+              <li class="nav-item">
+                <a class="nav-link" href="caracter.html">Caracteristicas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="video.html">Video</a>
+              </li>
+            </ul>  
+            
+            <div class="input-wrapper">
+                <input type="search" class="input" placeholder="Search">
+              
+                <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                </svg>
+              </div>
+          
+          </div>
+          
+        </nav>
+        </header><br><br><br><br>
+        <style>
+            .input-wrapper {
+              position: relative;
+              width: 250px;
+              left: 4%;
+    
+            }
+            
+            .input {
+              box-sizing: border-box;
+              color: #191919;
+              padding: 15px 15px 15px 35px;
+              width: 100%;
+            }
+            
+            .input.password {
+              padding: 15px 35px 15px 15px;
+            }
+            
+            .input-icon {
+              color: #191919;
+              position: absolute;
+              width: 20px;
+              height: 20px;
+              left: 12px;
+              top: 50%;
+              transform: translateY(-50%);
+            }
+            
+            .input-icon.password {
+              left: unset;
+              right: 12px;
+            }
+    
+            @media screen and (max-width:980px) {
+              
+            
+               .input-wrapper {
+                position: relative;
+                width: 150px;
+                left: -1%;
+      
+              }
+              
+              .input {
+                box-sizing: border-box;
+                color: #191919;
+                padding: 15px 15px 15px 35px;
+                width: 100%;
+              }
+              
+              .input.password {
+                padding: 15px 35px 15px 15px;
+              }
+              
+              .input-icon {
+                color: #191919;
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                left: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+              }
+              
+              .input-icon.password {
+                left: unset;
+                right: 12px;
+              }
+            }
+          </style>
+
+    <iframe class="video" style="left: 15%; position: absolute;" width="950" height="615" src="https://www.youtube.com/embed/SiEqTCrXlGY" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+    picture-in-picture" allowfullscreen></iframe>
+
+
+    
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
+    <script src="static/js/jquery-3.5.1.js"></script>
+    <script src="static/js/popper.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+</html>

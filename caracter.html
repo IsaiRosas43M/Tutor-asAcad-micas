@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+
+    <title>Tutorias Academicas | Aplicación para publicar Informacion.</title>
+    <!-- Bootstrap core CSS -->
+    <link href="static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="static/bootstrap/css/jumbotron.css" rel="stylesheet">
+    <link href="static/bootstrap/css2/css6.css" rel="stylesheet">
+    <link href="static/bootstrap/css2/css4.css" rel="stylesheet">
+    <link href="static/bootstrap/css/sticky-footer-navbar.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+    <header >
+  
+      <nav th:fragment="menu-principal" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">Tutorias academicas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="info.html">Tipos</a>
+      
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proble.html">Problematica</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="caracter.html">Caracteristicas</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">Video</a>
+            </li>        
+          </ul>  
+          <div class="input-wrapper">
+            <input type="search" class="input" placeholder="Search">
+          
+            <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" viewBox="0 0 20 20" fill="currentColor">
+              <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+      </nav>
+      </header>
+
+
+      <style>
+        .input-wrapper {
+          position: relative;
+          width: 250px;
+          left: 4%;
+
+        }
+        
+        .input {
+          box-sizing: border-box;
+          color: #191919;
+          padding: 15px 15px 15px 35px;
+          width: 100%;
+        }
+        
+        .input.password {
+          padding: 15px 35px 15px 15px;
+        }
+        
+        .input-icon {
+          color: #191919;
+          position: absolute;
+          width: 20px;
+          height: 20px;
+          left: 12px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        
+        .input-icon.password {
+          left: unset;
+          right: 12px;
+        }
+
+        @media screen and (max-width:980px) {
+          
+        
+           .input-wrapper {
+            position: relative;
+            width: 150px;
+            left: -1%;
+  
+          }
+          
+          .input {
+            box-sizing: border-box;
+            color: #191919;
+            padding: 15px 15px 15px 35px;
+            width: 100%;
+          }
+          
+          .input.password {
+            padding: 15px 35px 15px 15px;
+          }
+          
+          .input-icon {
+            color: #191919;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            left: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          
+          .input-icon.password {
+            left: unset;
+            right: 12px;
+          }
+        }
+      </style>
+        <main role="main">
+<body>
+    <div class="wrap1">
+      <div class="tarjeta-wrap1">
+        <div class="tarjetam">
+          <div class="adelante1 card11">Formativa</div>
+          <div class="atras1">
+            <p>Mediante la tutoría ayudamos a que los y las estudiantes adquieran competencias, capacidades, habilidades, valores y actitudes para enfrentar las exigencias y los desafíos que se les
+                 presentarán en su proceso de desarrollo.</p>
+          </div>
+        </div>
+      </div>
+      <div class="tarjeta-wrap1">
+        <div class="tarjetam">
+          <div class="adelante1 card22">Preventiva</div>
+          
+          <div class="atras1">
+            <p>Promueve factores protectores y minimiza factores de riesgo. No espera a que las y los estudiantes tengan problemas para trabajar en la Hora de Tutoría aspectos como: conocerse a sí mismos, aprender a comunicarse con los demás,
+                 asumir la responsabilidad de sus vidas</p>
+          </div>
+        </div>
+      </div>
+      <div class="tarjeta-wrap1">
+        <div class="tarjetam">
+          <div class="adelante1 card33">Permanente</div>
+          <div class="atras1">
+            <p>El o la estudiante recibe apoyo y herramientas que le permiten manejar las situaciones en su proceso de desarrollo durante todo su recorrido educativo.
+                 que pueden ser logros y avances de los estudiantes </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap2">
+        <div class="tarjeta-wrap1">
+          <div class="tarjetam2">
+            <div class="adelante2 card21">Personalizada</div>
+            <div class="atras2">
+              <p>El desarrollo humano es un proceso complejo en el que existen patrones comunes y previsibles, junto a un sinnúmero de factores hereditarios, ambientales y
+                   sociales que configuran de manera única y particular a cada uno</p>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-wrap1">
+          <div class="tarjetam2">
+            <div class="adelante2 card32">Integral</div>
+            <div class="atras2">
+              <p>Promueve la formación integral de los y las estudiantes como personas, atendiéndolos en todos sus aspectos:
+                   físico, cognitivo, emocional, moral y social.</p>
+            </div>
+          </div>
+        </div>
+        <div class="tarjeta-wrap1">
+          <div class="tarjetam2">
+            <div class="adelante2 card23">Inclusiva</div>
+            <div class="atras2">
+              <p>La tutoría, al estar integrada en el proceso educativo y ser tarea de toda la comunidad educativa, asegura atención para todos los estudiantes, promoviendo en todo momento el proceso de inclusión de aquellos que
+                   tuvieran necesidades educativas especiales.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+  </body>
+  <div class="container">
+    <p  class="containerr1">
+      &copy; 2021 EmpleosApp, Inc. | WebApp Desarrollada con Spring Boot 2.5.0 y Bootstrap 4.2 | Autor: webmaster | &middot; <a href="#">Privacy</a>
+      &middot; <a href="#">Terms</a>
+    </p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    
+    <script src="static/js/jquery-3.5.1.js"></script>
+    <script src="static/js/popper.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+</html>
