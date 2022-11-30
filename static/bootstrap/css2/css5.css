@@ -1,0 +1,18 @@
+.caj1 {
+      
+    position:relative;
+    top:50px;
+    width:600px;
+      text-align: justify;
+    text-justify: inter-word;
+    left: 9%;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+     overflow: hidden;
+}
+.vid1 {
+  position:absolute;
+  top:20px;
+  left: 800px;
+  width:600px;
+}

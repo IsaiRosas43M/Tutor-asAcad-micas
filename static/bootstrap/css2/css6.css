@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+body{
+  background:#1d1f20;
+}
+ 
+.wrap1{
+    width: 1100px;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.wrap2{
+    width: 1100px;
+    margin: 50px auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    
+}
+
+
+ 
+.tarjeta-wrap1{
+    margin: 10px;
+    -webkit-perspective: 800;
+    perspective: 800;
+}
+ 
+.tarjetam{
+    width: 325px;
+    height: 170px;
+    background: #F29720;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: .7s ease;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+ 
+}
+
+.tarjetam2{
+    width: 325px;
+    height: 170px;
+    background: #F29720;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: .7s ease;
+    transition: .7s ease;
+    -webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+    box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+ 
+}
+
+
+ 
+.adelante1 , .atras1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: "open sans";
+    
+}
+
+.adelante2 , .atras2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: "open sans";
+    
+}
+
+
+ 
+.adelante1{
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-family: "open sans";
+    align-items: center;
+    font-weight: 700;
+    text-align: center;
+    padding: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    font-size: 45px;
+}
+
+.adelante2{
+    width: 100%;
+    text-align: center;
+    color:black;
+    font-family: "open sans";
+    align-items: center;
+    font-weight: 700;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    font-size: 45px;
+}
+
+
+ 
+.atras1{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    font-weight:600;
+    padding: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+ 
+    text-align: justify;
+    color:black;
+    font-family: "open sans";
+  background: #F29720;
+}
+
+.atras2{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    font-weight:600;
+    padding: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+ 
+    text-align: justify;
+    color: black;
+    font-family: "open sans";
+  background: #04f0f8;
+}
+
+
+
+
+ 
+.tarjeta-wrap1:hover .tarjetam{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.tarjeta-wrap1:hover .tarjetam2{
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+ 
+.card11{
+    background-image: url(https://www.compartirpalabramaestra.org/sites/default/files/styles/articulos/public/field/image/rubrica-de-un-solo-punto-una-herramienta-de-evaluacion-formativa.jpg?itok=6dCLxwwn);
+    background-size: cover;
+    filter: brightness(90%); 
+    background-image: transparent;
+}
+ 
+.card22{
+    background-image: url(https://www.prlinnovacion.com/wp-content/uploads/2020/11/medir-medicion-cultura-preventiva-vision-zero-nosaq-e1605266032647.jpg);
+    background-size: cover;
+    filter: brightness(90%); 
+    background-image: transparent;
+}
+ 
+.card33{
+    background-image: url(https://pbs.twimg.com/media/DNAnSU0WAAA_T6f.jpg);
+    background-size: cover;
+    filter: brightness(90%); 
+    background-image: transparent;
+}
+
+.card21{
+    background-image: url(http://www.remontapedagogia.es/wp-content/uploads/2016/05/pruebas-acceso-bacillerato-zaragoza.jpg);
+    background-size: cover;
+    filter: brightness(90%); 
+    background-image: transparent;
+    
+}
+ 
+.card32{
+    background-image: url(https://c8.alamy.com/compes/2da4f3k/mujer-caucasica-profesora-tutora-2da4f3k.jpg);
+    background-size: cover;
+    filter: brightness(90%);
+    background-image: transparent; 
+}
+ 
+.card23{
+    background-image: url(https://img.freepik.com/vector-gratis/ilustracion-concepto-plano-educacion-inclusiva-clases-distancia-alumnos-necesidades-especiales-estudiantes-tutor-personajes-dibujos-animados-2d-diseno-web-idea-creativa-tutoria-grupal_151150-3651.jpg?size=626&ext=jpg);
+    background-size: cover;
+    filter: brightness(90%);
+    background-image: transparent;
+}
+
+
+.containerr1{
+    color: rgb(255, 255, 255); 
+}
